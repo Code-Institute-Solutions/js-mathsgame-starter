@@ -8,4 +8,5 @@ The students' challenge is to get the other two games working, and to style it.
 
 Add a timer to the project
 Add a division game that requires whole numbers as answers
+Add difficulty levels - Easy, Normal, Difficult - that affect the complexity of the questions.
 Add a high-score chart for people who get the most answers right in the time available
