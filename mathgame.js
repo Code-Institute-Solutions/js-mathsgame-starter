@@ -39,9 +39,9 @@ function checkAnswer() {
 }
 
 function additionQuiz() {
-    let num1 = Math.floor(Math.random() * 50);
-    let num2 = Math.floor(Math.random() * 50);
-    questionbox.textContent = "What is: " + num1 + " + " + num2 + "?";
+    let num1 = Math.floor(Math.random() * 50) + 1;
+    let num2 = Math.floor(Math.random() * 50) + 1;
+    questionbox.textContent = `What is: ${num1} + ${num2}?`;
     answerform["rightAnswer"].value = (num1 + num2);
 }
 
